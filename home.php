@@ -24,13 +24,26 @@
     <a href="home.php" class="logo">XCode</a>
 
     <nav class="navbar">
-        <a href="home.php">Home</a>
+        <a href="home.php">..</a>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+    </nav>
+
+    <!-- Mobile icon-menu --->
+    <div id="menu-btn1" class="fas fa-bars"></div>
+</section>
+
+<section class="headerLong">
+    <nav class="navbarLong">
         <a href="about.php">Home</a>
         <a href="book.php">book</a>
         <a href="package.php">package</a>
         <a href="Projects.php">Projects</a>
         <a href="contact.php">contact</a>
     </nav>
+
+    <!-- Mobile icon-menu --->
+    <div id="menu-btn2" class="fas fa-bars"></div>
 </section>
 
 <!----- header section ends ------>
@@ -40,6 +53,6 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <!------ custom javascript file link ------>
-<script src="assets/js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
